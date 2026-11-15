@@ -1,4 +1,4 @@
-/* JustDescribe landing and privacy pages. Plain CSS, no build step. */
+/* JustDescribe landing, privacy, and ToS pages. Plain CSS, no build step. */
 
 @font-face {
   font-family: "Sora";
@@ -425,6 +425,25 @@ h2 {
 .updated {
   font-size: 13px;
   color: var(--text-mute);
+}
+
+/* ToS Page */
+.doc p + p,
+.doc ul + p {
+  margin-top: 12px;
+}
+
+.doc ul {
+  margin: 8px 0 0;
+  padding-left: 22px;
+}
+.doc li {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.link-underline {
+  text-decoration: underline;
 }
 
 /* Hero buttons */
