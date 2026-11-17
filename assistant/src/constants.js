@@ -1,0 +1,3 @@
+export const MIN_DESCRIPTION_LENGTH = 10
+export const MAX_DESCRIPTION_LENGTH = 2000
+export const REQUEST_TIMEOUT_MS = 30000
