@@ -1,0 +1,9 @@
+{
+  "name": "justdescribe",
+  "private": true,
+  "scripts": {
+    "build:assistant": "npm install --prefix assistant && npm run build --prefix assistant",
+    "assemble": "rm -rf dist && mkdir dist && cp -r landing/. dist/ && cp -r assistant/dist dist/assistant",
+    "build": "npm run build:assistant && npm run assemble"
+  }
+}
